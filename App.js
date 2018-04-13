@@ -23,7 +23,7 @@ BackgroundJob.register(backgroundJob);
 
 var backgroundSchedule = {
   jobKey: 'MeuIpHistorico',
-  period: 5000,//600000,
+  period: 14400000, //Job roda a cada 4 horas.
   timeout: 10000,
   exact: true
 }
